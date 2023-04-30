@@ -98,7 +98,7 @@ this.classList.remove("dragover");
 
 function signOut(){
   sessionStorage.clear();
-  window.location="../index.html"
+  window.location="/"
 }
 
 

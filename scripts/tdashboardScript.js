@@ -142,7 +142,7 @@ fetch("https://nbyla-backend.onrender.com/jobs/get", {})
 
   function signOut(){
     sessionStorage.clear();
-    window.location="../index.html"
+    window.location="/"
   }
 
   function show_list(id) {
