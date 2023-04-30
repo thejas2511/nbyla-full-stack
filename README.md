@@ -37,7 +37,10 @@ This is a portal which can be used by **Terraformers** and **Applicants**.
 
     9. Any user can sign out whenever needed.
 
-    10. User friendly UI was designed. Example: The archive button will be intitially blue and whenever the job  is archived it will turn red to make it easy for the user understand. Similarly upon clikcing interested button in applicant's dashboard the button turns green.
+    10. User friendly UI was designed. Example: The archive button will be intitially blue and whenever the 
+    job  is archived it will turn red to make it easy for the user understand. 
+    
+    11. Similarly upon clikcing interested button in applicant's dashboard the button turns green.
 
 
 
