@@ -41,7 +41,7 @@ var color;
 var dead=Math.floor(Math.abs(new Date(job.deadline.slice(0,10)) - new Date()) / (1000 * 60 * 60 * 24));
 
 if (dead>=21){color="green"}
-else if(dead>3 && dead<21){color="yellow"}
+else if(dead>=3 && dead<21){color="yellow"}
 else if(dead<3){color="red"}
 
 var interested=job.interested;
