@@ -81,7 +81,7 @@ function login(){
         else{
             window.alert("wrong Credentials or wrong Role");
             sessionStorage.clear();
-            window.location="login.html";
+            window.location="index.html";
         }
     });
 

@@ -4,11 +4,11 @@ function checkStatus(){
     console.log(user);
     if (!user){
         window.alert("login/Register First")
-        window.location="login.html";
+        window.location="index.html";
     }
     if(role=="terraformer"){
       window.alert("Not an applicant");
-      window.location="login.html";
+      window.location="index.html";
     }
 }
 
@@ -98,7 +98,7 @@ this.classList.remove("dragover");
 
 function signOut(){
   sessionStorage.clear();
-  window.location="login.html"
+  window.location="index.html"
 }
 
 
