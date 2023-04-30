@@ -72,16 +72,16 @@ function login(){
             sessionStorage.setItem("role",role);
             sessionStorage.setItem("user_id",json._id);
             if(role=="terraformer"){
-                window.location="tdashboard.html";
+                window.location="./pages/tdashboard.html";
             }
             else{
-            window.location="dashboard.html"
+            window.location="./pages/dashboard.html"
             }
         }
         else{
             window.alert("wrong Credentials or wrong Role");
             sessionStorage.clear();
-            window.location="index.html";
+            window.location="../index.html";
         }
     });
 
