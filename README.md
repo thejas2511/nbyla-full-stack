@@ -19,7 +19,7 @@ This is a portal which can be used by **Terraformers** and **Applicants**.
 
 **Features of Job Portal**
 
-    1. Any user can register in either of two roles. Can also login using the same.
+   1. Any user can register in either of two roles. Can also login using the same.
 
     2. Users are not allowed to register for a role and login using another role.
 
