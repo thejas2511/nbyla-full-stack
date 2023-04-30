@@ -42,7 +42,7 @@ fetch("https://nbyla-backend.onrender.com/jobs/get", {})
     var dead=Math.floor(Math.abs(new Date(job.deadline.slice(0,10)) - new Date()) / (1000 * 60 * 60 * 24));
  
     if (dead>=21){color="green"}
-    else if(dead>3 && dead<21){color="yellow"}
+    else if(dead>=3 && dead<21){color="yellow"}
     else if(dead<3){color="red"}
     
     if (job.isArchived==true){
