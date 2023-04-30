@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/dashboardStyles.css">
+</head>
+<body onload="checkStatus()">
+    <h2 class="header">Applicant  Dashboard</h2>
+    <h3 class="header">Hi <span id="user"></span></h3>
+    <h4 class="header">Available Jobs for You</h4>
+        <div id="jobs-container"></div>
+        <div id="outer">
+            
+            <div class="inner">
+                <button onclick="signOut()">Sign out</button>
+            </div>
+    <script src="../scripts/dashboardScript.js"></script>
+</body>
+</html>
+

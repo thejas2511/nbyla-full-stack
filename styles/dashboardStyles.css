@@ -1,0 +1,108 @@
+body{
+  background-color: black;
+  
+  
+}
+.body1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#jobs-container {
+  display: flex;
+    
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.job-card {
+    border: 1px solid #ccc;
+    width: calc(25% - 10px);
+    padding: 1px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    cursor: move;
+  }
+  .buttonCenter{
+    text-align: center;
+  }
+  li{
+    list-style: none;
+  }
+
+  .job-card:hover {
+    box-shadow: 2px 2px 5px #ccc;
+  }
+  
+  .job-card.dragging {
+    opacity: 0.5;
+  }
+  
+  
+  .interested{
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    background-color: #4070f4;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.interested:hover{
+    background-color: #265df2;
+}
+
+#outer
+{   
+    padding-top: 5%;
+    width:100%;
+    text-align: center;
+}
+.inner
+{
+    position: relative;
+    padding-left: 2px;
+    display: inline-block;
+}
+
+button {
+	padding:5px 15px; 
+	background:#041545; 
+	border:1px solid white;
+	cursor:pointer;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	color: #00ff00;
+}
+
+
+.addnew:hover{
+  background-color: #090c16;
+}
+
+.header{
+  text-align: center;
+  color: #00ff00;
+  /* font-size: larger;
+  font-weight: bolder; */
+}
+
+#outer
+{   
+    padding-top: 5%;
+    width:100%;
+    text-align: center;
+}
+.inner
+{
+    position: relative;
+    padding-left: 2px;
+    display: inline-block;
+}

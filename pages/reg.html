@@ -1,0 +1,67 @@
+ 
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+
+
+    <link rel="stylesheet" href="../styles/style.css">
+         
+
+</head>
+<body>
+    
+    <div class="container">
+        <h2 style="color: #00ff00;text-align: center;">Terraformer Job Portal</h2>
+        <div class="forms">
+            <div class="form login">
+                <h2 style="color: #00ff00;text-align: center;">Register</h2>
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" placeholder="Enter your name" id="regName" required>
+                        
+                    </div>
+                    <div class="input-field">
+                        <select id="loginRole">
+                            <option value="terraformer">Terraformer</option>
+                            <option value="applicant">Applicant</option>
+                          </select>
+                          
+                    </div>
+                    
+                    <div class="input-field">
+                        <input type="password" class="password" placeholder="Create a password"  id="regPassword" required>
+               
+                    </div>
+                    <div class="input-field">
+                        <input type="password" class="password" placeholder="Confirm a password" id="confirmRegPassword" required>
+                        
+                    </div>
+
+                    <div class="input-field button">
+                        <input type="button" value="Signup" onclick="register()">
+                    </div>
+                </form>
+
+                <div class="login-signup">
+                    <span class="text" style="color:white;">Already a member?
+                        <a href="login.html" class="text signup-link">Login Now</a>
+                    </span>
+                </div>
+            </div>
+
+            
+            </div>
+        </div>
+    </div>
+
+    <script src="../scripts/script.js"></script>
+</body>
+</html>
+

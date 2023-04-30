@@ -1,0 +1,65 @@
+ 
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+
+
+    <link rel="stylesheet" href="../styles/style.css">
+         
+
+</head>
+<body>
+    
+    <div class="container">
+        <h2 style="color: #00ff00;text-align: center;">Terraformer Job Portal</h2>
+        <div class="forms">
+            
+            <div class="form login">
+                <h2 style="color: #00ff00;text-align: center;">Login</h2>
+
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text" placeholder="Enter name"  id="loginName" required>
+                        
+                    </div>
+                    <div class="input-field">
+                        <input type="password" class="password" placeholder="Enter your password" id="loginPassword" required>
+                        
+                    </div>
+                    <div class="input-field">
+                        <select id="loginRole">
+                            <option value="terraformer">Terraformer</option>
+                            <option value="applicant">Applicant</option>
+                          </select>
+                          
+                    </div>
+                    
+
+                    <div class="input-field button">
+                        <input type="button" value="Login" onclick="login()">
+                    </div>
+                </form>
+
+                <div class="login-signup">
+                    <span style="color:white;" class="text">Not a member?
+                        <a href="reg.html" class="text signup-link">Signup Now</a>
+                    </span>
+                </div>
+            </div>
+
+            
+            </div>
+        </div>
+    </div>
+
+    <script src="../scripts/script.js"></script>
+</body>
+</html>
+

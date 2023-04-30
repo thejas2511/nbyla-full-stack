@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Job Application Form</title>
+	<link rel="stylesheet" href="../styles/addnewStyles.css">
+</head>
+<body>
+	<div class="container">
+		<form>
+			<h2>Job Application Form</h2>
+
+			
+			<input type="text" id="job-title" placeholder="Job Title" name="job-title" required>
+
+			<input type="text" id="job-description" name="job-description" placeholder="Job Description" required></input>
+
+			<input type="text" id="job-location" name="job-location" placeholder="Job Location" required>
+
+			<input type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="job-deadline" name="deadline" placeholder="Job Deadline" required>
+
+			<input type="email" id="contact-email" name="contact-email" placeholder="Contact Email" required>
+
+			<input type="text" id="contact-phone" name="contact-phone"  placeholder="Contact Phone" required></input>
+            <br>
+			<button type="submit" onclick="submitJob()">Submit</button><br><br><br>
+			<a class="back" href="tdashboard.html">Back to dashboard</a>
+		</form>
+		
+	</div>
+	
+	<script src="../scripts/addnewScript.js"></script>
+</body>
+</html>
