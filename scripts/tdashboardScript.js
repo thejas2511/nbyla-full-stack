@@ -3,11 +3,11 @@ function checkStatus(){
     const role=sessionStorage.getItem("role");
     if (!user){
         window.alert("login/Register First")
-        window.location="index.html";
+        window.location="../index.html";
     }
     if(role=="applicant"){
       window.alert("Not an applicant");
-      window.location="index.html";
+      window.location="../index.html";
     }
 }
 
@@ -142,7 +142,7 @@ fetch("https://nbyla-backend.onrender.com/jobs/get", {})
 
   function signOut(){
     sessionStorage.clear();
-    window.location="index.html"
+    window.location="../index.html"
   }
 
   function show_list(id) {
